@@ -1,10 +1,9 @@
 ---
 title: Hello world
 authors: ymatigoosa
-tags: [hello, docusaurus]
 ---
 
-This is the summary of a hello world post
+The summary of a hello world post
 
 <!--truncate-->
 

@@ -15,6 +15,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -38,7 +39,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/project',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -67,10 +68,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Ymatigoosa',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Ymatigoosa site logo',
           src: 'img/logo.svg',
+          href: '/blog',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
@@ -78,7 +80,7 @@ const config = {
           //   type: 'docSidebar',
           //   sidebarId: 'projects',
           //   position: 'left',
-          //   label: 'Docs',
+          //   label: 'Projects',
           // },
           {
             href: 'https://github.com/Ymatigoosa/ymatigoosa.github.io',
